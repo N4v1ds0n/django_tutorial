@@ -1,0 +1,10 @@
+# Copilot, draft a .gitignore file for this django repo and dont forget the keys in the settings.py file
+# Django
+# make sure there are no sensitive infos uploaded to the repo
+# Python    
+*.pyc
+__pycache__/
+db.sqlite3
+/media
+/staticfiles
+/.env
